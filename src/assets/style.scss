@@ -1,0 +1,25 @@
+
+.loader_tct{
+    // position:fixed;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    // transform: -webkit-translate(-50%, -50%);
+    // transform: -moz-translate(-50%, -50%);
+    // transform: -ms-translate(-50%, -50%);
+    // z-index: 9999;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1500;
+    position: fixed;
+    background-color: rgba(161, 165, 220, 0.124);
+    -webkit-tap-highlight-color: transparent;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
